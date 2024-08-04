@@ -1,0 +1,65 @@
+body {
+  background: url("https://images.pexels.com/photos/2512282/pexels-photo-2512282.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+}
+.cont {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  align-self: center;
+}
+.container {
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  margin: 4% auto;
+}
+.glass {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.credentials {
+  padding: 0;
+  font-size: 2rem;
+}
+.function-heading {
+  margin: 2rem 0;
+}
+.username {
+  margin: 0rem;
+  border-style: none none solid none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  color: black;
+}
+.password {
+  margin: 0rem;
+  border-style: none none solid none;
+  border-bottom: 2px solid black;
+  background: transparent;
+  color: black;
+}
+.btn {
+  margin: 2rem;
+  padding: 0.5rem;
+  border-radius: 4rem;
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
